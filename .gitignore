@@ -1,0 +1,4 @@
+*.json
+*.pyc
+logs/
+wandb/

@@ -1,0 +1,19 @@
+corpus:
+  train_corpus_loc: data/k128_m15_tr2000000.train
+  dev_corpus_loc: data/k128_m15_tr2000000.dev
+  test_corpus_loc:  data/k128_m15_tr2000000.test
+  test20_corpus_loc:  __TEST20_PATH__
+language:
+  bracket_types: 128
+  dev_max_length: 1620
+  dev_max_stack_depth: 15
+  dev_min_length: 1
+  dev_sample_count:  200000
+  test_max_length: 3240
+  test_max_stack_depth: 15
+  test_min_length: 1621
+  test_sample_count: 1000000
+  train_max_length: 1620
+  train_max_stack_depth: 15
+  train_min_length: 1
+  train_sample_count: 2000000
